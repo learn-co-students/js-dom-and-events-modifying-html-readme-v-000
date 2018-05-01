@@ -1,0 +1,30 @@
+{
+  "name": "modifying-html-readme",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json",
+    "lite": "lite-server --port 3000", 
+    "start": "npm run lite" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:learn-co-students/js-dom-and-events-modifying-html-readme-v-000.git"
+  },
+  "keywords": [
+    "javascript",
+    "flatiron",
+    "learn"
+  ],
+  "author": "pletcher",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "jsdom": "^9.2.1",
+    "mocha": "^2.5.3",
+    "mocha-jsdom": "^1.1.0",
+    "mocha-multi": "^0.9.0",
+    "lite-server": "^1.3.1" 
+  }
+}
